@@ -3,7 +3,7 @@
 ## 绑定属性Binding
 
 ### Mode 
-> oneway
+> oneway 
 
 
 > Twoway

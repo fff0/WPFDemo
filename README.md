@@ -3,7 +3,10 @@
 ## 绑定属性Binding
 
 ### Mode 
-> oneway
+> oneway 单向绑定
 
+> Twoway 双向绑定
 
-> Twoway
+> OneTime 单次绑定
+
+> OneWayToSource 单向绑定，与OneWay相反
