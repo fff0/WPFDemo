@@ -11,5 +11,8 @@
         <TabItem Header="绑定属性Mode">
             <local:ModeControl />
         </TabItem>
+        <TabItem Header="绑定资源Source">
+            <local:SourceControl />
+        </TabItem>
     </TabControl>
 </Window>
