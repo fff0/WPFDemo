@@ -14,3 +14,6 @@ C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\WpfDemo.csproj.GenerateResource
 C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\WpfDemo.csproj.CoreCompileInputs.cache
 C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\WpfDemo.exe
 C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\WpfDemo.pdb
+C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\ModeControl.g.cs
+C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\14121\Desktop\WpfDemo\WpfDemo\obj\Debug\ModeControl.baml

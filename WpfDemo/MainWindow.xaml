@@ -8,50 +8,8 @@
         Title="WPF绑定案例"
         Height="450" Width="800">
     <TabControl>
-
         <TabItem Header="绑定属性Mode">
-            <!--绑定属性 Mode-->
-            <StackPanel>
-                <!--单向绑定-->
-                <StackPanel Margin="20 0">
-                    <Slider Name="m_Slider1" />
-                    <TextBox Text="{Binding ElementName=m_Slider1 ,Path=Value,Mode=OneWay}" 
-                             Margin="0 10"
-                             Height="30"
-                             VerticalContentAlignment="Center"/>
-                </StackPanel>
-
-                <!--双向绑定-->
-                <StackPanel Margin="20 0">
-                    <Slider Name="m_Slider2"
-                            Maximum="100"/>
-                    <TextBox Text="{Binding ElementName=m_Slider2 ,Path=Value,Mode=TwoWay}" 
-                             Margin="0 10"
-                             Height="30"
-                             VerticalContentAlignment="Center"/>
-                </StackPanel>
-
-                <!--单次绑定-->
-                <StackPanel Margin="20 0">
-                    <Slider Name="m_Slider3"
-                            Maximum="100"
-                            Value="60"/>
-                    <TextBox Text="{Binding ElementName=m_Slider3 ,Path=Value,Mode=OneTime}" 
-                             Margin="0 10"
-                             Height="30"
-                             VerticalContentAlignment="Center"/>
-                </StackPanel>
-                
-                <!--单向绑定，与OneWay相反-->
-                <StackPanel Margin="20 0">
-                    <Slider Name="m_Slider4"
-                            Maximum="100"/>
-                    <TextBox Text="{Binding ElementName=m_Slider4 ,Path=Value,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" 
-                             Margin="0 10"
-                             Height="30"
-                             VerticalContentAlignment="Center"/>
-                </StackPanel>
-            </StackPanel>
+            <local:ModeControl />
         </TabItem>
     </TabControl>
 </Window>
