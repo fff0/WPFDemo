@@ -12,3 +12,7 @@
 > OneWayToSource 单向绑定，与OneWay相反
 
 > Default 默认绑定
+
+## Source
+
+> 绑定资源
