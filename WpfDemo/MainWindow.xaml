@@ -14,5 +14,8 @@
         <TabItem Header="绑定资源Source">
             <local:SourceControl />
         </TabItem>
+        <TabItem Header="绑定其他资源">
+            
+        </TabItem>
     </TabControl>
 </Window>

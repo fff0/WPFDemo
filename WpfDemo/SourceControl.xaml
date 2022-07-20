@@ -45,6 +45,9 @@
         <StackPanel>
             <TextBlock Text="{Binding Source={StaticResource resText},Path=Text}" />
             <TextBox   Text="{Binding Source={StaticResource resText},Path=Text}" />
+            <TextBlock Text="11111111111111111111111111111111111111111111111111111111111111111111111111111111111" 
+                       TextTrimming="CharacterEllipsis"
+                       ToolTip="{Binding RelativeSource={RelativeSource Mode=Self},Path=Text}"/>
         </StackPanel>
     </Grid>
 </UserControl>
